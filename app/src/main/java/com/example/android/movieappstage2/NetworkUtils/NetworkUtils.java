@@ -19,7 +19,7 @@ public class NetworkUtils  {
     private static final String SEARCH_TYPE_POPULAR="popular/";
     private static final String SEARCH_TYPE_TOP_RATED="top_rated/";
     private static final String API_PARAM="api_key";
-    private static final String API_KEY="80d165558137e1d2cd4d07092d2292df";
+    private static final String API_KEY="";
 
     public static URL makePopularSearchURL(){
         Uri uri=Uri.parse(MOVIE_BASE_URL+SEARCH_TYPE_POPULAR).buildUpon().appendQueryParameter(API_PARAM,API_KEY).build();
