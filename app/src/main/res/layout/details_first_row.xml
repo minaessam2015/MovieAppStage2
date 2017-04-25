@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/movie_image_onDetails"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:src="@drawable/android_logo_logotype_robot" />
+
+        <TextView
+            android:id="@+id/title_text_onDetails"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_toRightOf="@+id/movie_image_onDetails"
+            android:text="TextView"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/rating_text_onDetails"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/title_text_onDetails"
+            android:layout_alignStart="@+id/title_text_onDetails"
+            android:layout_below="@+id/title_text_onDetails"
+            android:layout_marginTop="38dp"
+            android:text="10"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/date_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/rating_text_onDetails"
+        android:layout_alignStart="@+id/rating_text_onDetails"
+        android:layout_below="@+id/rating_text_onDetails"
+        android:layout_marginTop="40dp"
+        android:textSize="18sp"
+        android:text="5/4/1999"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/overview_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:text="TextView"
+        android:layout_below="@+id/movie_image_onDetails"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="5dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/overview_text"
+        android:layout_marginTop="14dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@color/colorPrimary"/>
+
+
+</RelativeLayout>

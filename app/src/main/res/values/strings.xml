@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">MovieAppStage2</string>
+    <string name="Popular">Popular Movies</string>
+    <string name="top_rated">Top Rated Movies</string>
+    <string name="errorLoading">Sorry something went wrong while downloading,Please try again
+    later.</string>
+    <string name="no_favourites">There are no favourites now \n add some ?</string>
+    <string name="no_internet">Sorry no internet connection </string>
+</resources>
